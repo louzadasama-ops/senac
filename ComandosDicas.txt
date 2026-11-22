@@ -1,0 +1,16 @@
+- usuario e senha do github
+- usuario:vinculo google
+- senha:
+
+- echo "# senacversionamento" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit": commit (Registra as alterações preparadas) -m (Permite informar uma mensagem)
+- git branch -M main
+- git remote add origin https://github.com/louzadasama-ops/senacversionamento.git
+- git push -u origin main
+- git log --oneline: apresenta o histórico de commits de forma resumida.
+
+
+- pwd - ondestou. no prompt é=cd
+- ls - mostra itens da pasta atual (-la para incluir arquivos ocultos e detalhes). No Pprompt é=dir

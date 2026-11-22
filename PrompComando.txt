@@ -1,0 +1,35 @@
+
+cd .. = anda um para traz
+
+• DIR: lista os arquivos e subpastas do diretório atual.
+• CD (ou CHDIR): muda de pasta (ex.: cd nome_da_pasta ou cd .. para voltar um nível).
+• MD (ou MKDIR): cria uma nova pasta.
+• RD (ou RMDIR): remove uma pasta vazia.
+• TREE: exibe a estrutura de pastas em formato de árvore.
+
+Arquivos e manipulação
+
+• COPY: copia um ou mais arquivos para outro local.
+• XCOPY: copia arquivos e estruturas de pastas (incluindo subpastas).
+• MOVE: move arquivos de uma pasta para outra.
+• REN (ou RENAME): renomeia arquivos.
+• DEL (ou ERASE): exclui um ou mais arquivos.
+• TYPE: exibe o conteúdo de um arquivo de texto na tela.
+
+Sistema e utilitários
+
+• CLS: limpa a tela do terminal.
+• HELP (ou comando /?): mostra ajuda e opções de uso de um comando.
+• VER: exibe a versão do sistema.
+• DATE / TIME: mostra ou altera a data e a hora do sistema.
+• CHKDSK: verifica erros no disco e no sistema de arquivos.
+• FORMAT: formata uma unidade de disco.
+• EXIT: fecha o prompt de comando.
+
+cd /d "%USERPROFILE%"
+O comando cd /d "%USERPROFILE%" no Prompt de Comando (CMD) do Windows leva você diretamente para a pasta pessoal do usuário atual, 
+mesmo que esteja em outra unidade de disco (como D: ou E:).
+• cd: Altera o diretório de trabalho atual.
+• /d: Permite trocar de unidade de disco e de pasta ao mesmo tempo. Sem ele, o cd só muda de diretório dentro da unidade já ativa.
+• "%USERPROFILE%": Variável de ambiente que aponta para a pasta do usuário logado (em geral, C:\Users\NomeDoUsuario). 
+As aspas protegem o caminho caso haja espaços no nome de usuário.
