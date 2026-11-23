@@ -10,7 +10,11 @@
 - git remote add origin https://github.com/louzadasama-ops/senacversionamento.git
 - git push -u origin main
 - git log --oneline: apresenta o histórico de commits de forma resumida.
-
+- git remote -v:  no terminal para ver para onde o origin aponta.
+- git remote set-url origin <URL_DO_NOVO_REPOSITORIO>: troca de repositorio
+- git switch main (ou git checkout main): Troca de branch
+- git pull origin main para baixar as alterações mais recentes da brunch.
+- git switch -c nome-da-branch (ou git checkout -b nome-da-branch): para criar nova branch (tem q estar na main)
 
 - pwd - ondestou. no prompt é=cd
-- ls - mostra itens da pasta atual (-la para incluir arquivos ocultos e detalhes). No Pprompt é=dir
+- ls - mostra itens da pasta atual (-la para incluir arquivos ocultos e detalhes). No Prompt é=dir
